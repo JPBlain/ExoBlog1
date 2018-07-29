@@ -1,0 +1,8 @@
+<ul class="list-group">
+  <app-postlistitem *ngFor="let post of postarray"
+    [posttitle]="post.title"
+    [postcontent]="post.content"
+    [postloveIts]="post.loveIts"
+    [postcreated_at]="post.created_at">
+  </app-postlistitem>
+</ul>
